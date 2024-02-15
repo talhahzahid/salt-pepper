@@ -110,28 +110,56 @@ html {
 #resturant-text {
     text-align: center;
 }
-#islamabad-resturant{
+
+#islamabad-resturant {
     display: flex;
     justify-content: center;
     gap: 30px;
     align-items: center;
     flex-wrap: wrap;
 }
-.Direction{
+
+.Direction {
     padding: 10px;
     border-radius: 25px;
     border: 1px solid black;
 }
 
-#main-resturant-branch{
+#main-resturant-branch {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
+#village-franchies {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
+#ExpressFranchises{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
 
+.express{
+    background-color: white;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+}
 
+#social-pick{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
 
 
 
@@ -221,11 +249,21 @@ html {
     .welcome-text {
         font-size: 20px;
     }
-    .islamabad-pick img{
+
+    .islamabad-pick img {
         width: 100%;
     }
-    .branches-picture img{
+
+    .branches-picture img {
         width: 300px;
+    }
+
+    .village-pick img {
+        width: 300px;
+    }
+
+    .coo {
+        text-align: center;
     }
 }
 
