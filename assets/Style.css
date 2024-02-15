@@ -117,7 +117,17 @@ html {
     align-items: center;
     flex-wrap: wrap;
 }
+.Direction{
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid black;
+}
 
+#main-resturant-branch{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
 
 
@@ -213,6 +223,9 @@ html {
     }
     .islamabad-pick img{
         width: 100%;
+    }
+    .branches-picture img{
+        width: 300px;
     }
 }
 
